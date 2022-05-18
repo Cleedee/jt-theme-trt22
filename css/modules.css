@@ -1,0 +1,37 @@
+/* CSS for module EU Cookie Compliance */
+
+div#sliding-popup .popup-content {
+    max-width: 1129px;
+}
+
+@media screen and (max-width: 1185px) {
+    div#sliding-popup .popup-content {
+        max-width: 80%;
+    }
+}
+
+@media screen and (min-width: 586px) {
+    div#sliding-popup .popup-content #popup-text {
+        max-width: 82%;
+    }
+}
+
+div#sliding-popup .popup-content #popup-text {
+    margin: 10px 0;
+}
+
+div#sliding-popup .popup-content #popup-buttons {
+    width: 15%;
+}
+
+div#sliding-popup .popup-content #popup-text h3,
+div#sliding-popup .popup-content #popup-text p {
+    font-weight: normal;
+    font-size: 15px;
+    font-family: 'Open Sans', Arial;
+}
+
+div#sliding-popup .popup-content #popup-text a {
+    color: #ffffff;
+    text-decoration: underline;
+}
