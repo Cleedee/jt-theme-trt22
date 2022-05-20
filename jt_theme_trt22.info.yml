@@ -1,4 +1,4 @@
-name: JT Theme TRT22
+name: Tema TRT22
 type: theme
 description: 'Tema do TRT 22 (jt_theme subtema)'
 package: core
@@ -6,8 +6,8 @@ core_version_requirement: ^8 || ^9
 base theme: jt_theme
 
 libraries:
-  - jt-theme-trt22/global-styling
-  - jt-theme-trt22/global-scripts
+  - jt_theme_trt22/global-styling
+  - jt_theme_trt22/global-scripts
 
 regions:
   accessibility: 'Acessibilidade'
